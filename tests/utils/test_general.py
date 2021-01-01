@@ -1,6 +1,7 @@
 from utils import general
 import pytest
 
+
 class TestGeneral:
     def test_set_logging(self):
         rank = -1
@@ -31,7 +32,7 @@ class TestGeneral:
     def test_check_dataset(self):
         dict = []
         general.check_dataset(dict)
-    
+
     def test_make_divisible(self):
         x = 1
         divisor = 2

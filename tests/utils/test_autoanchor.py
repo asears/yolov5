@@ -1,5 +1,6 @@
 from utils import autoanchor
 import pytest
 
-def test_activations():
-    pass
+class TestAutoAnchor:
+    def test_activations(self):
+        pass

@@ -1,5 +1,8 @@
 from models import export
 import pytest
 
-def test_export():
-    pass
+class TestExport:
+    """Test Export."""
+    def test_export_main(self):
+        """Test main."""
+        pass

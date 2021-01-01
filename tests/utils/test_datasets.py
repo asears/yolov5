@@ -1,5 +1,6 @@
 from utils import datasets
 import pytest
 
-def test_activations():
-    pass
+class TestDatasets:
+    def test_activations(self):
+        pass
